@@ -34,4 +34,4 @@ def generate_message(percentage):
         return "It's complicated, but love is always worth it! ❤️"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
